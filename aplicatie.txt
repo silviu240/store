@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>DISCIPLINE+</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <h1>DISCIPLINE+</h1>
+
+  <!-- Viciu -->
+  <div class="card">
+    <h2>⛔ Fără viciu</h2>
+    <p id="viceTime">0 zile 0h 0m</p>
+    <button id="resetVice">Am căzut</button>
+  </div>
+
+  <!-- Exersat -->
+  <div class="card">
+    <h2>🧠 Exersat</h2>
+    <p id="practiceTime">0h 0m 0s</p>
+    <button id="startPractice">Start</button>
+    <button id="stopPractice">Stop</button>
+  </div>
+
+  <!-- Antrenament -->
+  <div class="card">
+    <h2>🏋️ Antrenament</h2>
+    <p id="workoutTime">0h 0m 0s</p>
+    <button id="startWorkout">Start</button>
+    <button id="stopWorkout">Stop</button>
+  </div>
+
+  <!-- Apă -->
+  <div class="card">
+    <h2>💧 Apă</h2>
+    <p><span id="water">0</span> L</p>
+    <button id="addWater">+0.25 L</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
